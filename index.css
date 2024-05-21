@@ -43,6 +43,12 @@ button {
   margin-bottom: 5px;
   border-radius: 5px;
 }
+#add-btn,
+#sub-btn,
+#div-btn,
+#mult-btn {
+  color: black;
+}
 
 #increment-btn {
   background: darkred;
@@ -53,4 +59,10 @@ button {
 #store {
   font-weight: 600;
   font-size: 16px;
+}
+div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  column-gap: 5em;
 }
